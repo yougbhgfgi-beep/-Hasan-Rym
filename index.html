@@ -1137,7 +1137,7 @@
 
             return (
                 <section id="game" className="py-24 px-4 relative z-10 overflow-hidden">
-                    <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white font-premium">{lang === 'ar' ? 'أساطير الحب 🌌' : 'Love Constellation 🌌'}</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white font-premium">{lang === 'ar' ? 'سوالف الحب 🌌' : 'Love Constellation 🌌'}</h2>
 
                     <div className="max-w-4xl mx-auto premium-counter rounded-[1.5rem] md:rounded-[3rem] p-4 md:p-12 relative h-[450px] md:h-[600px] flex flex-col items-center justify-center overflow-hidden border border-[rgb(196,13,116)]/30 bg-black/40 backdrop-blur-sm">
 
@@ -1186,20 +1186,20 @@
                             <div className="text-center z-30 animate-fade-in">
                                 <div className="text-8xl md:text-[12rem] mb-6 animate-pulse filter drop-shadow-[0_0_30px_rgb(196,13,116)]">💖</div>
                                 <h3 className="text-4xl font-bold text-white mb-4 text-extreme-glow">
-                                    {lang === 'ar' ? 'اكتملت الحكاية! ✨' : 'Story Complete! ✨'}
+                                    {lang === 'ar' ? 'خلصت السالفة! ✨' : 'Story Complete! ✨'}
                                 </h3>
                                 <p className="text-xl text-rose-200 italic mb-8 max-w-md">
-                                    {lang === 'ar' ? 'كل نجمة في السما بتشهد على حبي ليك... نورت دنيتي يا أغلى حاجة' : 'Every star in the sky bears witness to my love... You light up my world.'}
+                                    {lang === 'ar' ? 'كل نجمة بالسما تشهد على حبي إلك... نورت دنيتي يا أغلى شي' : 'Every star in the sky bears witness to my love... You light up my world.'}
                                 </p>
                                 <button onClick={spawnStars} className="text-[rgb(196,13,116)] underline font-bold hover:text-white transition-colors">
-                                    {lang === 'ar' ? 'ارسم حكاية تانية؟' : 'Draw another story?'}
+                                    {lang === 'ar' ? 'نرسم سالفة ثانية؟' : 'Draw another story?'}
                                 </button>
                             </div>
                         )}
 
                         {!gameOver && (
                             <div className="absolute bottom-8 text-white/40 font-premium tracking-widest uppercase text-sm animate-pulse">
-                                {lang === 'ar' ? 'وصل النجوم ببعضها...' : 'Connect the stars...'}
+                                {lang === 'ar' ? 'وصل النجوم سوية...' : 'Connect the stars...'}
                             </div>
                         )}
                     </div>
@@ -1258,30 +1258,30 @@
             }, []);
         }
 
-        const finalMessageAR = `حسن يا روحي ..... لازم احكيلك ان من يوم ما دخلت حياتي، الدنيا اتغيرت للأحسن تمامًا. إنت مش بس حبيبي، إنت سندي وضهري وكل دنيتي. اليوم اللي بدأنا فيه حكايتنا كان أسعد يوم في حياتي، وربنا يخليك ليا ونفضل مع بعض لآخر العمر. كل نجمة في السما بتشهد على حبي ليك، نورت دنيتي يا أغلى حاجة. بحبك كثير يا أغلى حاجة في دنيتي كلها 💖🌍 .`;
+        const finalMessageAR = `حسن يا روحي ..... لازم أحجيلك ان من يوم الدخلت بحياتي، الدنيا تغيرت للأحسن كلش. إنت مش بس حبيبي، إنت سندي وظهري وكل دنيتي. اليوم اللي بدأنا بي سالفتنا جان أسعد يوم بحياتي، وربي يخليك إلي ونبقى سوية لآخر العمر. كل نجمة بالسما تشهد على حبي إلك، نورت دنيتي يا أغلى شي. أحبك هواي يا أغلى شي بدنيتي كلها 💖🌍 .`;
         const finalMessageEN = `Hassan, my soul ..... I have to tell you that since the day you entered my life, everything changed for the better. You are not just my beloved, you are my support, my backbone, and my entire world. The day we started our story was the happiest day of my life, and I pray we stay together forever. I am Reem and I love you so much, the most precious thing in my entire world 💖🌍 .`;
 
         const i18n = {
             ar: {
-                nav: { memories: "ذكرياتنا", video: "الفيديو", why: "ليه بحبك", gallery: "صورنا" },
-                hero: { subtitle: "قصة حب مكتوبة للابد", btn: "زر المفاجأة ✨" },
-                login: { title: "حكاية أم ينال و أبو ينال", day: "اليوم", month: "الشهر", btn: "فتح القلب", quote: "كل لحظة تجمعنا هي البداية..." },
-                meter: { title: "مقياس حبي ليك", label: "نسبة الحب", calc: "جاري حساب كمية الحب...", result: "النتيجة: حب لا نهائي <span class='result-heart'>💜</span> ∞", hint: "اضغط عشان تشوف النتيجة" },
+                nav: { memories: "ذكرياتنا", video: "الفيديو", why: "ليش أحبك", gallery: "صورنا" },
+                hero: { subtitle: "قصة حب مكتوبة للأبد", btn: "المفاجأة ✨" },
+                login: { title: "سالفة أم ينال و أبو ينال", day: "اليوم", month: "الشهر", btn: "افتح القلب", quote: "كل لحظة تجمعنا هي البداية..." },
+                meter: { title: "مقياس حبي إلك", label: "نسبة الحب", calc: "كاعد نحسب كمية الحب...", result: "النتيجة: حب لا نهائي <span class='result-heart'>💜</span> ∞", hint: "دوس حتى تشوف النتيجة" },
                 timeline: { title: "خط ذكرياتنا" },
                 video: { title: "ذكرى حلوة 🎥", sub: "لحظات متتنسيش..." },
-                reasons: { title: "ليه بحبك؟ 🤔💜", r1: { t: "حنيتك", d: "أحن وأطيب قلب في الدنيا، بتمسح دمعتي قبل ما تنزل." }, r2: { t: "أماني", d: "معاك بحس إني مسنودة على جبل، ولا حاجة تقدر تكسرني." }, r3: { t: "ضحكتك", d: "لما بتضحك الدنيا كلها بتضحكلي، هي علاجي ودوائي." }, r4: { t: "قلبك الأبيض", d: "أنقى وأطيب قلب، بيسامح وبيحب بصدق." }, r5: { t: "عيونك", d: "بشوف فيهم مستقبلي." }, r6: { t: "وجودك", d: "كفاية بس إنك موجود، ده بيخلي الحياة ليها طعم ولون." } },
-                clock: { start: "الأيام اللي قضيناها (27/3/2025)", year: "سنة", month: "شهر", day: "يوم", hour: "ساعة", min: "دقيقة", sec: "ثانية" },
+                reasons: { title: "ليش أحبك؟ 🤔💜", r1: { t: "حنيتك", d: "أحن وأطيب قلب بالدنيا، تمسح دمعتي كبل ما تنزل." }, r2: { t: "أماني", d: "وياك أحس إني مسنودة على جبل، ولا شي يكدر يكسرني." }, r3: { t: "ضحكتك", d: "من تضحك الدنيا كلها تضحكلي، هي علاجي ودواي." }, r4: { t: "قلبك الأبيض", d: "أنقى وأطيب قلب، يسامح ويحب بصدق." }, r5: { t: "عيونك", d: "أشوف بيهم مستقبلي." }, r6: { t: "وجودك", d: "كافي بس إنك موجود، هذا يخلي الحياة إلها طعم ولون." } },
+                clock: { start: "الأيام العشناها (27/3/2025)", year: "سنة", month: "شهر", day: "يوم", hour: "ساعة", min: "دقيقة", sec: "ثانية" },
                 footer: { final: "The Final Scene" },
-                envelope: { mylove: "حبيبي حسن 💜", enter: "دخول عالمنا 💜", hint: "انقر لفتح الرسالة 💌", message: "رسالة حب ليك..." },
+                envelope: { mylove: "حبيبي حسن 💜", enter: "دخول عالمنا 💜", hint: "دوس حتى تفتح الرسالة 💌", message: "رسالة حب إلك..." },
                 gallery: { title: "صورنا الحلوة 📸" },
-                finalScene: { scene1: "ولو كان في عمر تاني…<br />هختارك برضه يا حسن", scene2: "مش مجرد شخص دخل حياتي…", scene2b: "أنت الحياة نفسها.", scene3: "مش مجرد حب…", scene3b: "أنت الأمان، والونس، والبيت.", scene6: "لو الأيام اتشقلبت... ولو الدنيا وقفت ضدنا", scene7: "أنا ثابتة…", scene8: "علشان اخترتك بقلب كامل.", infinity: "إلى ما لا نهاية", back: "الرجوع للرئيسية", thanks: "شكراً إنك جيت حياتي يا حسن…" },
+                finalScene: { scene1: "ولو جان اكو عمر ثاني…<br />أختارك هم يا حسن", scene2: "مو مجرد شخص دخل حياتي…", scene2b: "أنت الحياة نفسها.", scene3: "مو مجرد حب…", scene3b: "أنت الأمان، والونس، والبيت.", scene6: "لو الأيام انگلبت... ولو الدنيا وگفت ضدنا", scene7: "أني ثابتة…", scene8: "لأن اختاريتك بقلب كامل.", infinity: "إلى ما لا نهاية", back: "الرجوع للرئيسية", thanks: "شكراً لأن جيت بحياتي يا حسن…" },
                 timeline: {
                     title: "خط ذكرياتنا",
                     items: [
-                        { text: "أنت نصفي التاني وكل حياتي ❤️", date: "حكايتنا", desc: "عيوني بشوف فيهم جمالك وحبك، ومفيش في الدنيا عينين غير عينيك.", image: "WhatsApp Image 2026-03-20 at 5.32.43 PM.jpeg" },
-                        { text: "كل سنة وإحنا سوا وحكايتنا بتكبر ❤️", date: "أغلى اللحظات", desc: "كل مرة بشوف فيها ضحكتك يا حسن بحس إن الدنيا لسه بخير، إنت دايماً سر سعادتي.", image: "WhatsApp Image 2026-03-20 at 5.32.55 PM.jpeg" },
-                        { text: "إنت الدنيا كلها في عيني ❤️", date: "وعد بالبقاء", desc: "لو عُمري عاد من البداية، هختارك كل مرة... لأنك أنت الإجابة على كل دعواتي.", image: "WhatsApp Image 2026-03-20 at 5.33.10 PM.jpeg" },
-                        { text: "عيونك هي دنيتي ❤️", date: "جمال عيونك", desc: "بشوف في عيونك يا حسن كل الأمان والحب اللي في الدنيا، ربنا يخليك ليا.", image: "WhatsApp Image 2026-03-20 at 6.29.56 PM.jpeg" }
+                        { text: "أنت نصفي الثاني وكل حياتي ❤️", date: "حكايتنا", desc: "عيوني أشوف بيهم جمالك وحبك، وماكو بالدنيا عيون غير عيونك.", image: "WhatsApp Image 2026-03-20 at 5.32.43 PM.jpeg" },
+                        { text: "كل سنة وإحنا سوية وسالفتنا تكبر ❤️", date: "أغلى اللحظات", desc: "كل مرة أشوف بيها ضحكتك يا حسن أحس إن الدنيا لسه بخير، أنت دايماً سر سعادتي.", image: "WhatsApp Image 2026-03-20 at 5.32.55 PM.jpeg" },
+                        { text: "أنت الدنيا كلها بعيني ❤️", date: "وعد بالبقاء", desc: "لو عمري رجع من البداية، راح أختارك كل مرة... لأنك أنت الجواب على كل دعواتي.", image: "WhatsApp Image 2026-03-20 at 5.33.10 PM.jpeg" },
+                        { text: "عيونك هي دنيتي ❤️", date: "جمال عيونك", desc: "أشوف بعيونك يا حسن كل الأمان والحب اللي بالدنيا، ربي يخليك إلي.", image: "WhatsApp Image 2026-03-20 at 6.29.56 PM.jpeg" }
                     ]
                 }
             },
@@ -1451,11 +1451,11 @@
 
             const messages = {
                 ar: [
-                    "إنت أجمل حاجة في حياتي يا حسن 💖",
-                    "ضحكتك بتنور دنيتي يا حسن ✨",
-                    "إنت كل حياتي يا حسن 💍",
-                    "إنت السند والضهر والروح يا غالي 🌍",
-                    "بحبك أكتر من أي حاجة في الدنيا 🌹"
+                    "أنت أجمل شي بحياتي يا حسن 💖",
+                    "ضحكتك تنور دنيتي يا حسن ✨",
+                    "أنت كل حياتي يا حسن 💍",
+                    "أنت السند والظهر والروح يا غالي 🌍",
+                    "أحبك أكثر من أي شي بالدنيا 🌹"
                 ],
                 en: [
                     "You are the most beautiful thing in my life, Hassan 💖",
@@ -1788,7 +1788,7 @@
                             {showSecret && (
                                 <div className="fixed inset-0 flex items-center justify-center bg-black/60 z-50 animate-fade-in backdrop-blur-sm" onClick={() => setShowSecret(false)}>
                                     <div className="bg-white px-16 py-12 rounded-[2rem] text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#830b9d] to-[#c40d74] shadow-2xl transform scale-105 transition-transform text-center mx-4">
-                                        بحبك يا أبو ينال 💖
+                                        أحبك يا أبو ينال 💖
                                     </div>
                                 </div>
                             )}
@@ -2022,7 +2022,7 @@
                             </section>
 
                             <footer className="py-16 text-center bg-white/5 backdrop-blur-md border-t border-white/10">
-                                <p className="text-2xl font-script text-[rgb(196,13,116)] mb-8">إنت كل حياتي 💖</p>
+                                <p className="text-2xl font-script text-[rgb(196,13,116)] mb-8">أنت كل حياتي 💖</p>
                                 <button onClick={() => setShowFinalScene(true)}
                                     className="bg-[rgb(196,13,116)] text-white px-8 py-3 rounded-full text-sm hover:bg-black transition-all shadow-lg tracking-widest uppercase font-bold">
                                     {t.footer.final}
@@ -2126,7 +2126,7 @@
                                 )}
 
                                 {step >= 13 && (
-                                    <p className="mt-12 text-2xl font-script text-white/60 animate-slide-up">ريم بتحبك يا حسن للأبد 💖</p>
+                                    <p className="mt-12 text-2xl font-script text-white/60 animate-slide-up">ريم تحبك يا حسن للأبد 💖</p>
                                 )}
                             </div>
                         )}
